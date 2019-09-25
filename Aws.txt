@@ -1,0 +1,70 @@
+mkfs.ext4 /dev/xvdf 
+
+
+
+mkfs -t ext4 /dev/xvdf 
+
+
+
+mount /dev/xvdf /mypoint
+
+mount -a 
+
+
+file -s /dev/xvdf       to check file system assign or not...if not display data
+
+
+
+
+umount /mypoint 
+
+
+
+
+mount -t /dev/xvdf /mypoint
+
+
+
+
+
+
+
+
+
+aws configure
+aceeskey
+access id
+region 
+
+aws s3 ls
+aws s3 mb s3://melvin(username)-test  (bucket Creation)
+
+aws s3 rb s3://melvin(username)-test  (bucket deletion)
+
+aws s3 rb s3://melvin(username)-test  --force     for forcefully deletion objects present in the bucket 	
+
+
+aws s3 cp samplefile(file of local machine ) s3://melvin(username)-test(bucketname)    //copying files of local machine into aws s3 bucket
+
+
+
+aws s3 ls s3://melvin(username)-test    list of files in bucket
+
+aws s3 syn . s3://melvin(username)-test    sync the files in local machine to the s3 bucket 
+
+
+aws s3 rm  s3://melvin(username)-test       --recursive
+
+
+aws s3 cp s3://melvin-test/filename -     to view the content of the filename  
+
+
+
+
+“Error 404” (or “Page Not Found”) – is a standard HTTP status code that occurs when the server can’t find the document requested by a user. Basically, this is a page that doesn’t exist or broken.
+
+
+
+
+How to Fix a 403 Forbidden Error
+The HTTP error 403 blocks site access, use these steps to find out why 		
